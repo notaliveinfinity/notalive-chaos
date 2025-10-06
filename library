@@ -276,6 +276,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
         ButtonContainer.Position = UDim2.new(0.889500022, 0, 0.539560497, -40)
         ButtonContainer.Size = UDim2.new(0, 43, 0, 61)
         ButtonContainer.ZIndex = 2
+        ButtonContainer.Visible = false
         
         YesButton.Name = "YesButton"
         YesButton.Parent = ButtonContainer
